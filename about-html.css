@@ -1,0 +1,205 @@
+body{
+    
+    background-image:url(https://github.com/nishuR31/nishuR31.github.io/blob/main/star-sky-night-purple.jpg?raw=true);
+
+}
+.purpose{
+    height: fit-content;
+    width: auto;
+    background-color: transparent;
+    opacity: 100%;
+}
+.purpose h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 0 0 0 rgb(0, 0, 0), 1px 1px 2px rgb(255, 0, 0),3px 3px 3px rgb(185, 26, 26);
+}
+.purpose p{
+    font-size: 20px;
+    border: 5px double red;
+    padding: 1cm;
+    background-color: transparent;
+    text-align: justify;
+    padding: 15px;
+    color: rgb(255, 60, 0);
+    text-decoration:none;
+    text-transform: capitalize;
+}
+.purpose p:hover{
+    transition-duration: 1s;
+    box-shadow: 0 0 4px red,1px 1px 6px rgb(255, 0, 0),0px 4px 6px rgb(255, 0, 0);}
+    
+.brief{
+    height: fit-content;
+    width: auto;
+    background-color: transparent;
+    opacity: 100%;
+
+
+}
+.brief pre{
+    font-size: 25px;
+    text-align: center;
+    color: cyan;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow:0 0 0 rgb(0, 0, 0), 1px 1px 2px cyan,3px 3px 3px rgb(0, 238, 255);
+}
+.brief ul{
+    font-size: 20px;
+    border: 5px double rgb(0, 174, 255);
+    padding: 1cm;
+    background-color: transparent;
+    text-align: justify;
+    opacity: 70%;
+    transition-duration: 1s;
+    color: rgb(0, 225, 255);
+    text-decoration:none;
+    text-transform: capitalize;
+
+}
+.brief li:hover,.brief ul:hover{
+    box-shadow: 0 0 4px rgb(38, 0, 255), 1px 1px 2px blue;
+    transition-duration: 1s;
+    text-shadow: 0 0 3px rgb(0, 68, 255),1px 1px 2px rgb(0, 0, 0);
+    opacity: 100%;
+}
+.structure{
+    width: auto;
+    height: auto;
+    border: 5px rgb(255, 255, 255) dotted;
+
+}
+.structure pre{
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    width:auto;
+    justify-self: center;
+    height: fit-content;
+    border: transparent;
+    padding: 19px;
+
+}
+.structure h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    padding: 10px;
+    text-decoration: underline;
+    text-shadow: 0 0 0 rgb(0, 0, 0), 1px 1px 2px rgb(255, 255, 255),3px 3px 3px rgb(204, 204, 204);
+
+}
+.structure pre:hover{
+    transition-duration: 1s;
+    text-shadow: 0 0 0 rgb(129, 129, 129), 1px 1px 2px rgb(119, 119, 119),3px 3px 3px rgb(255, 255, 255);
+
+}
+.code_stances p{
+    color: rgb(234, 0, 255);
+    text-align: center;
+    font-size: 25px;
+    width:auto;
+    justify-self: center;
+    height: fit-content;
+    border: transparent;
+    padding: 19px;
+    text-shadow: 0 0 0 rgb(0, 0, 0), 1px 1px 2px magenta,3px 3px 3px rgb(247, 4, 255);
+
+}
+.code_stances li{
+    color: rgb(153, 0, 255);
+    text-align: left;
+    font-size: 20px;
+    width:auto;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-left: 10px;
+    justify-self: center;
+    height: fit-content;
+    border: transparent;
+    padding: 10px;
+    opacity: 80%;
+
+}
+.code_stances li:hover{
+    text-shadow: 0 0 0 rgb(0, 0, 0), 1px 1px 2px rgb(255, 0, 0),3px 3px 3px rgb(0, 0, 0);
+    opacity: 100%;
+    transition-duration: 1s;
+
+}
+.understanding{
+    border: 5px hidden gold;
+    border-bottom-style: double;
+    border-top-style: dashed;
+    
+     
+} 
+.understanding h2{
+    text-align: justify;
+    font-size: 25px;
+    color: cornflowerblue;
+    text-shadow: 0 0 2px rgb(0, 0, 0),2px 2px 4px rgb(0, 102, 255),3px 3px 6px cyan;
+
+}
+.understanding h3{
+    text-align: left;
+    font-size:22px;
+    color: rgba(255, 196, 0, 0.822);
+    text-shadow: 0 0 2px rgb(0, 0, 0),2px 2px 4px rgb(253, 138, 5),3px 3px 6px rgb(255, 0, 0);
+}
+.understanding P{
+    font-size: 20px;
+    color:white;
+}
+.understanding P:hover{
+    transition-duration: 1s;
+    text-shadow: 0 0 2px rgb(0, 0, 0),4px 4px 4px rgb(141, 140, 140),3px 3px 6px rgb(71, 69, 69) ;
+}
+.tags{
+    width: auto;
+    height: auto;
+    border: 3px double cyan;
+    background-color: transparent;
+}
+.tags P{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 5px 10px white;
+    text-align: center;
+}
+.tags B{
+    font-size: 25px;
+    color: bisque;
+    text-align: left;
+    
+}
+.tags B:hover{
+    opacity: 100%;
+    transition-duration: 1s;
+    box-shadow: 3px 3px 2px white,1px 1px 6px rgb(255, 255, 255);;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0),3px 3px 7px white,3px 3px 5px white;
+}
+
+.links{
+    padding: 2px;
+    width: auto;
+    transition-duration: 1s;
+    height: auto;
+    border: 3px double;
+}
+.links h4:hover{
+    text-shadow: 2px 0 2px blue,6px 3px 4px rgb(0, 174, 255);
+    transition-duration: 1s;
+    box-shadow: 2px 0 2px rgb(162, 0, 255),6px 3px 4px rgb(255, 0, 0);
+
+}
+.links:hover{
+    width: auto;
+    transition-duration: 1s;
+    text-shadow: 2px 0 2px blue,6px 3px 4px rgb(0, 174, 255);
+    box-shadow: 2px 0 2px rgb(162, 0, 255),6px 3px 4px rgb(255, 0, 0);
+}
