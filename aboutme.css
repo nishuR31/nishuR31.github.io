@@ -1,0 +1,223 @@
+
+body{
+    background-image: url(https://github.com/nishuR31/nishuR31.github.io/blob/main/dark-mode-background-images-social.png?raw=true);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+
+.nav{ 
+    background-color: transparent;
+    text-align: center;
+    height: 6.5cm;
+    box-shadow:0px 3px 3px rgb(255, 0, 0),0px 5px 3px rgb(255, 0, 76),0px 6px 4px rgb(224, 0, 150), 0 8px 8px magenta ;
+    border: 2px red double;
+    background-image: url("https://raw.githubusercontent.com/nishuR31/nishuR31.github.io/main/panorama-office-empty-white-monitor-260nw-228548749.webp");
+    background-position: top;
+    z-index: 0;
+    
+
+}
+.nav h1{
+    float: none;
+    border: 2px ;
+    padding-top: 0.1cm;
+    justify-content: center;
+    text-align: center;
+    transition-duration: 1s;
+    color: rgb(255, 0, 128);
+    text-shadow:  3px 3px 3px rgb(0, 0, 0);
+    width: auto;
+ 
+}
+.droplinks{
+    display: none;
+    width: auto;
+    transition-duration: 1s;
+    height: fit-content;
+    background-color:transparent;
+}
+.droplinks a{
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition-duration: 1s;
+    text-align: center;
+    width: auto;
+    position: static;
+    margin: 1cm;
+    font-style: normal;
+    font-weight: bold;
+    z-index: 1;
+}
+.nav h1:hover {
+    transition-duration: 1s;
+    text-shadow: 1px 1px 2px black,2px 2px 5px rgb(0, 0, 0),3px 3px 3px rgb(0, 0, 0),4px 4px 4px black;
+    
+}
+.nav:hover .droplinks{
+    display: contents;
+    justify-content: center;
+    transition-property: all;
+    transition: ease-in-out;
+    
+}
+.droplinks a:hover{
+    font-size: 0.6cm;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0),3px 3px 3px rgb(0, 4, 255),4px 4px 4px cyan;
+
+}
+
+.myintro{
+padding: 1%;
+}
+.myintro h1{
+    font-size: 38px;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 1cm;
+    text-transform: uppercase;
+    text-overflow: clip;
+    text-decoration: underline overline double;
+}
+.myintro p{
+    text-align:justify;
+    font-size: 24px;
+
+}
+.myintro h1:hover, .myintro p:hover{
+
+    text-shadow: 1px 1px 4px black,3px 3px 4px rgb(255, 255, 255);
+}
+.education h1{
+    font-size: 38px;
+    text-align: center;
+    padding-top: 5cm;
+    color: rgb(101, 255, 196);
+    text-transform: uppercase;
+    font-stretch: extra-condensed ;
+    text-decoration: overline  underline dashed;
+    padding-bottom: 1cm;
+}
+.education h1:hover{
+    text-shadow:  1px 1px  2px rgb(0, 0, 0),3px 3px 2px rgb(60, 236, 207),4px 4px 5px cyan;
+
+}
+
+.education pre{
+    text-align:justify;
+    color:rgb(0, 47, 255);
+    text-shadow:  1px 1px  2px rgb(0, 0, 0),3px 3px 2px rgba(255, 0, 242, 0.432);
+    font-size: 20px;
+
+}
+.education  p{
+    height: fit-content;
+    text-decoration: underline dotted;
+    text-align:left;
+    font-size: 30px;
+    color:aqua;
+    text-shadow: 1px 1px  3px rgb(0, 0, 0),2px 2px 2px blue, 3px 3px 3px  cyan;
+    text-decoration: underline;
+}
+.education  p:hover {
+    text-shadow: 1px 1px  5px rgb(0, 0, 0),2px 2px 5px blue, 3px 3px 6px  cyan;
+}
+.education pre:hover{
+    text-shadow:  1px 1px  7px rgb(0, 0, 0),2px 2px 7px red ,3px 3px 8px rgb(255, 0, 242);}
+
+    education h1{
+    font-size: 38px;
+    text-align: center;
+    padding-top: 5cm;
+    color: rgb(101, 255, 196);
+    text-transform: uppercase;
+    font-stretch: extra-expanded ;
+    text-decoration: overline  underline dashed;
+    padding-bottom: 1cm;
+}
+.education h1:hover{
+    text-shadow:  1px 1px  2px rgb(0, 0, 0),3px 3px 2px rgb(60, 236, 207),4px 4px 5px cyan;
+
+}
+
+.education pre{
+    text-align:justify;
+    color:rgb(0, 47, 255);
+    text-shadow:  1px 1px  2px rgb(0, 0, 0),3px 3px 2px rgba(255, 0, 242, 0.432);
+    font-size: 20px;
+
+}
+.education  p{
+    height: fit-content;
+    text-decoration: underline dotted;
+    text-align:left;
+    font-size: 30px;
+    color:aqua;
+    text-shadow: 1px 1px  3px rgb(0, 0, 0),2px 2px 2px blue, 3px 3px 3px  cyan;
+    text-decoration: underline;
+}
+.education  p:hover {
+    text-shadow: 1px 1px  5px rgb(0, 0, 0),2px 2px 5px blue, 3px 3px 6px  cyan;
+}
+.education pre:hover{
+    text-shadow:  1px 1px  7px rgb(0, 0, 0),2px 2px 7px red ,3px 3px 8px rgb(255, 0, 242);}
+    
+    
+.skills h1{
+        font-size: 38px;
+        text-align: center;
+        padding-top: 5cm;
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-stretch: extra-expanded ;
+        text-decoration:  underline dotted red;
+        padding-bottom: 1cm;
+    }
+.skills h1:hover{
+        text-shadow:  1px 1px  8px rgb(0, 0, 0),3px 3px 5px rgb(230, 60, 236),4px 4px 5px rgb(247, 0, 255);
+    
+    }
+    
+.skills pre{
+        text-align:justify;
+        color:hotpink;
+        text-align:justify;
+        
+        font-size: 20px;}
+
+    .skills  p:hover {
+        text-shadow: 1px 1px  5px rgb(0, 0, 0),2px 2px 5px blue, 3px 3px 6px  cyan;
+    }
+    .skills pre:hover{
+        text-shadow: 1px 1px  3px rgb(0, 0, 0),2px 2px 2px rgb(170, 55, 141), 3px 3px 3px  rgb(255, 0, 179);}
+
+
+.Website{
+    padding-top: 1cm;
+   
+    height: 2cm;
+    width:auto;
+    display: flex;
+    font-size: 40px;
+    text-decoration: none;
+    justify-content: center;
+    color: rgb(0, 255, 21);
+
+}
+.Website:hover{
+    
+    box-shadow:0  5px 1px black,-5px 5px 10px lime,5px 5px 10px lime,0 20px 30px green;
+}
+
+.Website a{
+    padding-left: 1cm;
+    position:static;
+
+}
+.Website a:hover{
+    font-size: 45px;
+    color: transparent;
+    text-shadow: 2px  5px 0px black,-5px 5px 10px lime,5px 5px 10px lime,2px 20px 30px green;
+}
