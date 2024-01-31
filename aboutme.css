@@ -40,7 +40,7 @@ body{
 }
 .droplinks a{
     font-size: large;
-    color: rgb(0, 0, 0);
+    color: rgb(5, 5, 97);
     text-decoration: none;
     transition-duration: 1s;
     text-align: center;
@@ -77,12 +77,14 @@ padding: 1%;
     color: whitesmoke;
     text-align: center;
     padding-bottom: 1cm;
+    transition-duration: 1s;
     text-transform: uppercase;
     text-overflow: clip;
     text-decoration: underline overline double;
 }
 .myintro p{
     text-align:justify;
+    transition-duration: 1s;
     font-size: 24px;
 
 }
@@ -94,6 +96,7 @@ padding: 1%;
     font-size: 38px;
     text-align: center;
     padding-top: 5cm;
+    transition-duration: 1s;
     color: rgb(101, 255, 196);
     text-transform: uppercase;
     font-stretch: extra-condensed ;
@@ -107,6 +110,7 @@ padding: 1%;
 
 .education pre{
     text-align:justify;
+    transition-duration: 1s;
     color:rgb(0, 47, 255);
     text-shadow:  1px 1px  2px rgb(0, 0, 0),3px 3px 2px rgba(255, 0, 242, 0.432);
     font-size: 20px;
@@ -117,6 +121,7 @@ padding: 1%;
     text-decoration: underline dotted;
     text-align:left;
     font-size: 30px;
+    transition-duration: 1s;
     color:aqua;
     text-shadow: 1px 1px  3px rgb(0, 0, 0),2px 2px 2px blue, 3px 3px 3px  cyan;
     text-decoration: underline;
@@ -144,6 +149,7 @@ padding: 1%;
 
 .education pre{
     text-align:justify;
+    transition-duration: 1s;
     color:rgb(0, 47, 255);
     text-shadow:  1px 1px  2px rgb(0, 0, 0),3px 3px 2px rgba(255, 0, 242, 0.432);
     font-size: 20px;
@@ -154,6 +160,7 @@ padding: 1%;
     text-decoration: underline dotted;
     text-align:left;
     font-size: 30px;
+    transition-duration: 1s;
     color:aqua;
     text-shadow: 1px 1px  3px rgb(0, 0, 0),2px 2px 2px blue, 3px 3px 3px  cyan;
     text-decoration: underline;
@@ -169,6 +176,8 @@ padding: 1%;
         font-size: 38px;
         text-align: center;
         padding-top: 5cm;
+        opacity: 80%;
+        transition-duration: 1s;
         color: rgb(255, 0, 0);
         text-transform: uppercase;
         font-stretch: extra-expanded ;
@@ -176,6 +185,7 @@ padding: 1%;
         padding-bottom: 1cm;
     }
 .skills h1:hover{
+    opacity: 100%;
         text-shadow:  1px 1px  8px rgb(0, 0, 0),3px 3px 5px rgb(230, 60, 236),4px 4px 5px rgb(247, 0, 255);
     
     }
@@ -183,8 +193,9 @@ padding: 1%;
 .skills pre{
         text-align:justify;
         color:hotpink;
-        text-align:justify;
-        
+        height: fit-content;
+        width: auto;
+        transition-duration: 1s;
         font-size: 20px;}
 
     .skills  p:hover {
@@ -196,9 +207,10 @@ padding: 1%;
 
 .Website{
     padding-top: 1cm;
-   
     height: 2cm;
     width:auto;
+    transition-duration: 1s;
+    opacity: 80%;
     display: flex;
     font-size: 40px;
     text-decoration: none;
@@ -207,17 +219,113 @@ padding: 1%;
 
 }
 .Website:hover{
-    
+    opacity: 100%;
     box-shadow:0  5px 1px black,-5px 5px 10px lime,5px 5px 10px lime,0 20px 30px green;
 }
 
 .Website a{
     padding-left: 1cm;
+    opacity: 80%;
+    transition-duration: 1s;
     position:static;
 
 }
 .Website a:hover{
     font-size: 45px;
     color: transparent;
-    text-shadow: 2px  5px 0px black,-5px 5px 10px lime,5px 5px 10px lime,2px 20px 30px green;
+    opacity: 100%;
+    text-shadow: 0px  5px 0px rgb(0, 0, 0),0 5px 4px lime,0px 5px 10px rgb(57, 255, 7),0px 20px 10px green,0 7px 10px lime;
+}
+.contacts{
+    border: 3px double magenta;
+    height: fit-content;
+    width:auto;
+    display: grid;
+    text-decoration: none;
+    color: rgb(0, 255, 21);
+
+}
+.contacts:hover{
+    transition-duration: 1s;
+    box-shadow:0 0 20px black ,0 7px 20px rgb(255, 0, 255),1px 20px 10px rgb(255, 0, 149),4px 30px 40px rgb(228, 11, 137);
+    
+}
+.contacts p{
+    text-align: center;
+    font-size: 40px;
+    opacity: 80%;
+    text-decoration: underline wavy rgb(0, 102, 255);
+    color:rgb(0, 102, 255);
+    transition-duration: 1s;
+    
+}
+.contacts pre{
+    text-align: left;
+    font-size: 20px;
+    transition-duration: 1s;
+    color:rgb(255, 0, 0);
+    text-transform: capitalize;
+}
+.contacts p:hover{
+    text-shadow:0 0 20px black ,0 3px 2px blue,1px 1px 1px cyan,4px 4px 4px rgb(0, 132, 255);
+opacity: 100%;}
+.contacts pre:hover{
+text-shadow:0 0 20px black ,0 3px 20px rgb(255, 0, 76),1px 4px 10px rgb(255, 0, 0);}
+
+.lang{
+    transition-duration: 1s;
+    height: fit-content;
+    width:auto;
+    display: grid;
+    text-decoration: none;
+    color: rgba(238, 255, 0, 0.61);
+
+}
+.lang:hover{
+    box-shadow: 0 0 19px gold;
+}
+.lang h1{
+    text-align: center;
+    padding-top: 1px;
+    transition-duration: 1s;
+    text-decoration:double underline gold 2px;
+    font-size: 40px;
+
+}
+.lang p{
+    text-align: center;
+    font-size: 25px;
+    color: gold;
+    text-transform: capitalize;
+    transition-duration: 1s;
+}
+
+.lang h1:hover{
+    text-shadow: 0 3px 7px black ,0 10px 20px rgb(208, 255, 0),1px 4px 10px rgb(0, 0, 0),3px 3px 5px gold;
+}
+.lang p:hover{
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.555) ,0 10px 20px rgba(208, 255, 0, 0.664),1px 4px 10px rgba(82, 82, 82, 0.514),3px 3px 5px rgba(255, 217, 0, 0.534);
+}
+.interests{
+    width: auto;
+    border: 2px ;
+}
+.interests h1{
+    font-size: 40px;
+    color: white;
+    text-decoration: underline overline wavy white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.interests pre{
+    font-size: 30px;
+    color: rgb(85, 84, 84);
+    text-transform: capitalize;
+    text-align: center;
+}
+.interests h1:hover{
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.555) ,0 10px 5px rgba(255, 255, 255, 0.664),1px 4px 4px rgba(158, 158, 158, 0.514),3px 3px 5px rgba(44, 44, 44, 0.534);
+}
+.interests pre:hover{
+    text-shadow:1px 1px 1px black, 0 0px 3px rgb(255, 255, 255) ,0 0px 5px rgb(32, 31, 31),1px 0px 9px rgb(116, 107, 107),3px 0px 5px rgb(44, 44, 44);
 }
